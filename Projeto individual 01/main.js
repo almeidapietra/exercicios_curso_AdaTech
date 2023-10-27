@@ -17,9 +17,8 @@ const emails_ativos = emails.filter(verificaEmailAtivo);
 
 for (let email of emails_ativos){
     if (verificaDiaSemana() === true){
-    const subject = 'Novidades da CarStore'; 
-    const body = criarCorpoDeEmail(email.nome);        
-    enviarEmail(email.addressee, subject, body);
+        const subject = 'Novidades da CarStore'; 
+        const body = criarCorpoDeEmail(email.nome);        
+        enviarEmail(email.addressee, subject, body);
 }
-  };
-
+};
