@@ -24,7 +24,7 @@ Para executar este projeto em seu ambiente de desenvolvimento, siga estas etapas
 
 ```bash
     #Clone o repositório:
-    git clone https://github.com/almeidapietra/exercicios_curso_AdaTech/tree/main/Projeto%20individual%2001
+    git clone https://github.com/almeidapietra/exercicios_curso_AdaTech/edit/main/Projeto%20individual%2002/README.md
 
     #Navegue até o diretório do projeto:
     cd seu-projeto
